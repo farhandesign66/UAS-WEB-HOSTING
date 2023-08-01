@@ -1,0 +1,452 @@
+/* Gaya dasar */
+body {
+    font-family: 'Inter', sans-serif; /* Menggunakan font "Inter" untuk seluruh teks di halaman */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #007bff, #0048a8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     /* Tambahkan atribut width: 100% untuk mengisi lebar layar */
+}
+
+header .logo {
+    width: 196px; /* Sesuaikan ukuran logo */
+    height: 50px; /* Sesuaikan ukuran logo */
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Tambahan gaya untuk tombol Daftar pada tampilan desktop */
+@media screen and (min-width: 769px) 
+{
+    .daftar-button {
+      margin-left: 10px; /* Atur margin kiri agar sejajar dengan elemen lain */
+    }
+}
+
+/* Tombol Daftar */
+.daftar-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    border: 2px solid #007bff; /* Tambahkan border */
+}
+
+.daftar-button:hover {
+    background-color: #0048a8;
+}
+
+
+/* Logo Perusahaan */
+.logo {
+    width: 196px; /* Sesuaikan ukuran logo */
+    height: 34px; /* Sesuaikan ukuran logo */
+    margin-right: 20px;
+}
+
+/* Gaya dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #007bff, #0048a8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 196px; /* Sesuaikan ukuran logo */
+    height: 50px; /* Sesuaikan ukuran logo */
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Tombol Daftar */
+.daftar-button {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.daftar-button:hover {
+    background-color: #0048a8;
+    color: #fff;
+}
+
+/* Selamat Datang Section */
+#selamat-datang {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#selamat-datang h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+#selamat-datang p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Pilihan Paket */
+#paket {
+    background-color: #f9f9f9; /* Ganti warna latar belakang yang sesuai */
+    text-align: center;
+    padding: 50px 0;
+}
+
+#paket h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+#paket ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#paket li {
+    margin: 20px;
+}
+
+#paket .paket-card {
+    background-color: #ffffff; /* Ganti warna latar belakang yang sesuai */
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#paket .paket-card h3 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+#paket .paket-card p {
+    font-size: 18px;
+    color: #333;
+}
+
+#paket .paket-card .harga {
+    font-size: 20px;
+    color: #007bff;
+}
+
+/* Testimoni Pelanggan */
+#testimoni {
+    background-color: #007bff; /* Ganti warna latar belakang yang sesuai */
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#testimoni h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#testimoni .testimoni-card {
+    background-color: #0048a8; /* Ganti warna latar belakang yang sesuai */
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Tambahkan jarak 30px antara kotak-kotak testimoni */
+}
+
+#testimoni .testimoni-card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#testimoni .testimoni-card .nama {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#testimoni .testimoni-card .jabatan {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    background-color: #6c757d; /* Gradient dari biru ke putih */
+    color: #fff; /* Ganti warna teks dengan warna yang sesuai */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-container {
+    margin-right: 30px;
+}
+
+.logo {
+    width: 100px; /* Sesuaikan ukuran logo */
+    height: auto;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+/* Layanan Section */
+#layanan {
+    background-color: #f9f9f9; /* Ganti warna latar belakang yang sesuai */
+    text-align: center;
+    padding: 50px 0;
+}
+
+#layanan h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.layanan-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Tambahkan jarak antara kotak-kotak layanan */
+}
+
+.layanan-card {
+    background-color: #007bff; /* Ganti warna latar belakang yang sesuai */
+    color: #fff; /* Ganti warna teks dengan warna yang sesuai */
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.layanan-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.layanan-card h2 {
+    font-size: 24px;
+    color: #fff; /* Ganti warna teks dengan warna yang sesuai */
+}
+
+.layanan-card p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+/* Kontak */
+#kontak {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #007bff; /* Warna biru */
+    background-image: linear-gradient(135deg, #007bff, #87CEFA); /* Perpaduan dua warna biru */
+    color: #fff; /* Warna teks menjadi putih agar terlihat kontras */
+}
+
+#kontak h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #fff; /* Warna teks menjadi putih */
+}
+
+.card {
+    background-color: #fff; /* Warna latar belakang kotak menjadi putih */
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    /* Gaya untuk logo perusahaan di bagian kontak */
+    width: 150px;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card .alamat {
+    margin-top: 20px;
+}
+
+/* Gaya tambahan untuk ikon sosial media */
+.social-media {
+    margin-top: 30px;
+}
+
+.icon-link {
+    font-size: 24px;
+    color: #fff; /* Warna ikon menjadi putih */
+    margin-right: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.icon-link:last-child {
+    margin-right: 0;
+}
+
+.icon-link:hover {
+    color: #87CEFA; /* Warna ikon menjadi biru langit saat dihover */
+}
+
+
+/* Tata letak untuk ponsel dan tablet */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #hero {
+        padding: 20px;
+    }
+
+    #hero h2 {
+        font-size: 28px;
+    }
+
+    #fitur li {
+        font-size: 14px;
+    }
+}
+
+/* Tambahan gaya untuk desktop */
+@media screen and (min-width: 769px) {
+    header {
+        padding: 30px;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    #hero {
+        padding: 50px;
+    }
+
+    #hero h2 {
+        font-size: 40px;
+    }
+
+    #fitur li {
+        font-size: 16px;
+    }
+}
